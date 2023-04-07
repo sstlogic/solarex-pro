@@ -1,0 +1,4 @@
+#Wed Mar 29 17:50:20 IST 2023
+base.0=/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

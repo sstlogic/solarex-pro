@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/app/SolarExPro/BuildConfig.java
+ com.app.SolarExPro.BuildConfig

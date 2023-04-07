@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.SolarExPro"
+4    android:versionCode="2"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:4:5-72
+11-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:4:22-69
+12    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+12-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:5:5-73
+12-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:5:22-70
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:6:5-66
+13-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:6:22-64
+14
+15    <queries>
+15-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:11:5-24:15
+16        <intent>
+16-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:18
+17            <action android:name="android.accounts.AccountAuthenticator" />
+17-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:13:13-76
+17-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:13:21-73
+18        </intent>
+19        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+20        <intent>
+20-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:16:9-23:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:17:13-65
+21-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:17:21-62
+22
+23            <data
+23-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:19:13-22:44
+24                android:host="com.android.contacts"
+24-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:20:17-52
+25                android:mimeType="vnd.android.cursor.item/*"
+25-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:21:17-61
+26                android:scheme="content" />
+26-->[:contacts_service] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/contacts_service/intermediates/library_manifest/release/AndroidManifest.xml:22:17-41
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[com.google.android.exoplayer:exoplayer-core:2.18.4] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/c8f9af9817be6659bbb9936baa73d6a7/jetified-exoplayer-core-2.18.4/AndroidManifest.xml:24:5-79
+30-->[com.google.android.exoplayer:exoplayer-core:2.18.4] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/c8f9af9817be6659bbb9936baa73d6a7/jetified-exoplayer-core-2.18.4/AndroidManifest.xml:24:22-76
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/AndroidManifest.xml:22:5-24:47
+33        android:name="com.app.SolarExPro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.app.SolarExPro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.9.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/AndroidManifest.xml:26:22-94
+37
+38    <application
+39        android:name="android.app.Application"
+39-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:10:9-42
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.9.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/AndroidManifest.xml:28:18-86
+41        android:icon="@mipmap/ic_launcher"
+41-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:12:9-43
+42        android:label="SolarEx Pro"
+42-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:9:9-36
+43        android:usesCleartextTraffic="true" >
+43-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:11:9-44
+44        <activity
+44-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:13:9-33:20
+45            android:name="com.app.SolarExPro.MainActivity"
+45-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:14:13-41
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:18:13-163
+47            android:exported="true"
+47-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:15:13-36
+48            android:hardwareAccelerated="true"
+48-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:19:13-47
+49            android:launchMode="singleTop"
+49-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:16:13-43
+50            android:theme="@style/LaunchTheme"
+50-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:17:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:20:13-55
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+59-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:25:13-28:17
+60                android:name="io.flutter.embedding.android.NormalTheme"
+60-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:26:15-70
+61                android:resource="@style/NormalTheme" />
+61-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:27:15-52
+62
+63            <intent-filter>
+63-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:29:13-32:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:30:17-68
+64-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:30:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:31:17-76
+66-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:31:27-74
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+73-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:36:9-38:33
+74            android:name="flutterEmbedding"
+74-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:37:13-44
+75            android:value="2" />
+75-->/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/android/app/src/main/AndroidManifest.xml:38:13-30
+76
+77        <provider
+77-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+78            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+78-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+79            android:authorities="com.app.SolarExPro.flutter.image_provider"
+79-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+80            android:exported="false"
+80-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+81            android:grantUriPermissions="true" >
+81-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+82            <meta-data
+82-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+84                android:resource="@xml/flutter_image_picker_file_paths" />
+84-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+85        </provider>
+86
+87        <activity
+87-->[:url_launcher_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+88            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+88-->[:url_launcher_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+89            android:exported="false"
+89-->[:url_launcher_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+90            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+90-->[:url_launcher_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+91        <!--
+92           Declares a provider which allows us to store files to share in
+93           '.../caches/share_plus' and grant the receiving action access
+94        -->
+95        <provider
+95-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:13:9-21:20
+96            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+96-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:14:13-77
+97            android:authorities="com.app.SolarExPro.flutter.share_provider"
+97-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:15:13-74
+98            android:exported="false"
+98-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:16:13-37
+99            android:grantUriPermissions="true" >
+99-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:17:13-47
+100            <meta-data
+100-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+101                android:name="android.support.FILE_PROVIDER_PATHS"
+101-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+102                android:resource="@xml/flutter_share_file_paths" />
+102-->[:image_picker_android] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+103        </provider>
+104        <!--
+105           This manifest declared broadcast receiver allows us to use an explicit
+106           Intent when creating a PendingItent to be informed of the user's choice
+107        -->
+108        <receiver
+108-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:26:9-32:20
+109            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+109-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:27:13-82
+110            android:exported="true" >
+110-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:28:13-36
+111            <intent-filter>
+111-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+112                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+112-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:30:17-65
+112-->[:share_plus] /Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/library_manifest/release/AndroidManifest.xml:30:25-62
+113            </intent-filter>
+114        </receiver>
+115
+116        <uses-library
+116-->[androidx.window:window:1.0.0-beta04] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+117            android:name="androidx.window.extensions"
+117-->[androidx.window:window:1.0.0-beta04] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0-beta04] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+119        <uses-library
+119-->[androidx.window:window:1.0.0-beta04] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+120            android:name="androidx.window.sidecar"
+120-->[androidx.window:window:1.0.0-beta04] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0-beta04] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+122    </application>
+123
+124</manifest>

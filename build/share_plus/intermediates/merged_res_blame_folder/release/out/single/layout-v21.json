@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/share_plus/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/2f9250fe16fd137113577b8384df889a/core-1.9.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

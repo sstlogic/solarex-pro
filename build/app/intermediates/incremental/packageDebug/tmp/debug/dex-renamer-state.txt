@@ -1,0 +1,7 @@
+#Wed Mar 29 17:51:04 IST 2023
+base.1=/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+path.1=classes2.dex
+base.0=/Volumes/General/Codes/SolarEx/Workspace/solarex_rep_final/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
